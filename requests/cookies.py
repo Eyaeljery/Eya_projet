@@ -16,6 +16,9 @@ from .compat import Morsel, MutableMapping, cookielib, urlparse, urlunparse
 
 try:
     import threading
+    print("je suis la")
+    print("test")
+    print("ajout de trois lignes")
 except ImportError:
     import dummy_threading as threading
 
