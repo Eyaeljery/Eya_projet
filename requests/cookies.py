@@ -102,7 +102,6 @@ class MockRequest:
     def host(self):
         return self.get_host()
     print("je suis la")
-    print("salut")
     #commentaire
 
 
@@ -114,6 +113,7 @@ class MockResponse:
     """
 
     def __init__(self, headers):
+        print("salut")
         """Make a MockResponse for `cookielib` to read.
 
         :param headers: a httplib.HTTPMessage or analogous carrying the headers
