@@ -18,7 +18,7 @@ try:
     import threading
     print("je suis la")
     print("test")
-    print("ajout de trois lignes")
+    print("suppression et ajouut au meme endroit")
 except ImportError:
     import dummy_threading as threading
 
