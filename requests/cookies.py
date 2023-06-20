@@ -16,9 +16,10 @@ from .compat import Morsel, MutableMapping, cookielib, urlparse, urlunparse
 
 try:
     import threading
+    #abc
     print("je suis la")
     print("test")
-    print("suppression et ajouut au meme endroit")
+    
 except ImportError:
     import dummy_threading as threading
 
