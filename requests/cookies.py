@@ -101,6 +101,9 @@ class MockRequest:
     @property
     def host(self):
         return self.get_host()
+    print("je suis la")
+    print("salut")
+    #commentaire
 
 
 class MockResponse:
