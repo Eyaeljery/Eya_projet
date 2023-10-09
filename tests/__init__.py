@@ -3,6 +3,7 @@
 import warnings
 
 try:
+    print('test)
     from urllib3.exceptions import SNIMissingWarning
 
     # urllib3 1.x sets SNIMissingWarning to only go off once,
